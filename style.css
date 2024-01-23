@@ -146,6 +146,10 @@ li::marker {
     padding-top: 1.5rem;
 } 
 
+.nutrition-table hr {
+    margin: .5rem;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
