@@ -175,4 +175,8 @@ li::marker {
         padding-right: 3rem;
         gap: 5rem;
     }
+
+    .nutrition-table-category {
+        padding-left: 1rem;
+    }
 }
