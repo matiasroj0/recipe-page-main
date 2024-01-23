@@ -1,0 +1,164 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --dark-pink: hsl(333, 36%, 41%);
+    --brown: hsl(12, 40%, 35%);
+}
+
+/* css reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/*  */
+
+body {
+    background-color: var(--eggshell);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    max-width: 35rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+}
+
+h1,h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h2 {
+    color: var(--brown);
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+
+p,ul,ol {
+    color: var(--wenge-brown);
+    font-size: .92rem;
+}
+
+hr {
+    margin-bottom: 1.5rem;
+    opacity: .4;
+}
+
+.recipe-img {
+    border-radius: .5rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: var(--dark-charcoal);
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.preparation-time {
+    padding: 2rem;
+}
+
+.preparation-time h3 {
+    font-size: 1rem;
+    color: var(--dark-pink);
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+
+.preparation-time li {
+    margin-left: -1.5rem;
+    padding-left: 1rem;
+}
+
+ul span, ol span {
+    font-weight: bold;
+}
+
+li::marker {
+    color: var(--brown);
+    font-size: 10px;
+}
+
+.ingredients, .instructions {
+    padding-bottom: 1.5rem;
+}
+
+.ingredients li {
+    margin-left: -1.5rem;
+    padding-left: 1rem;
+}
+
+.instructions ol {
+    padding-left: 1rem;
+}
+
+.instructions li {
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+}
+
+.instructions li::marker {
+    color: var(--brown);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nutrition-table {
+    padding-top: 1.5rem;
+} 
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9rem;
+}
+
+.nutrition-table-category {
+    padding-left: 2rem;
+    font-size: .95rem;
+}
+
+.nutrition-table-value {
+    color: var(--brown);
+    font-weight: 600;
+    font-size: .95rem;
+}
