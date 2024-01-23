@@ -147,7 +147,7 @@ li::marker {
 } 
 
 .nutrition-table hr {
-    margin: .5rem;
+    margin: .5rem 0;
 }
 
 .row {
